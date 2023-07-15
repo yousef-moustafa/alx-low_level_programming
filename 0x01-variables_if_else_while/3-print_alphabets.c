@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	char *lower_alph = "abcdefghijklmnopqrstuvwxyz"
-	char *upper_alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	char *lower_alph = "abcdefghijklmnopqrstuvwxyz";
+	char *upper_alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	for (int i = 0; i <26; i++)
 	{
-		putchar(lower_alph[i])
+		putchar(lower_alph[i]);
 	}
 	for (int i = 0; i < 26; i++)
 	{
-		putchar(upper_alph[i])
+		putchar(upper_alph[i]);
 	}
-	putchar("\n")
+	putchar("\n");
 	return (0);
 }

@@ -8,9 +8,11 @@
 
 int main(void)
 {
+
 	int i;
 	char *lower_alph = "abcdefghijklmnopqrstuvwxyz";
 	char *upper_alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 	for (i = 0; i < 26; i++)
 	{
 		putchar(lower_alph[i]);

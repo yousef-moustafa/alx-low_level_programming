@@ -3,7 +3,7 @@
 /**
  * main - prints alphabet in lower then upper followed by new line
  *
- * return: always 0  (Success)
+ * Return: Always 0  (Success)
 */
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	char *lower_alph = "abcdefghijklmnopqrstuvwxyz";
 	char *upper_alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	for (i = 0; i <26; i++)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(lower_alph[i]);
 	}

@@ -2,7 +2,6 @@
 
 /**
  * puts2 - prints every other char + newline
- * 
  * @str: first char of string
  *
  * Return: void

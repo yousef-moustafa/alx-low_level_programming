@@ -18,7 +18,7 @@ void puts2(char *str)
 		length++;
 	}
 
-	for (num = 0; num <= length; num++)
+	for (num = 0; num < length; num++)
 	{
 		if (num % 2 != 0)
 		{
